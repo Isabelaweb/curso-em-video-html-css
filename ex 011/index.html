@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>
+        Imagem dinâmica
+    </h1>
+    <p>
+        Aumente e diminua o tamanho do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1000px)" srcset="imagens/foto-m.png">
+        <img src="/imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+    <h1>
+        Reproduzindo Áudio
+    </h1>
+    <h2>
+        Vamos aprender a reproduzir áudio em HTML5.
+    </h2>
+    <p>
+        Primeiro jeito 
+        <audio src="/midia/Dulcinea-Steve Adams.mp3" controls autoplay>Para ouvir</audio> <!-- Para funcionar precisa do controls -->
+    </p> 
+    <p>
+        Segundo jeito
+        
+        <audio preload="metadata" controls autoplay>
+            <source src="midia/Dulcinea-Steve Adams.mp3" type="audio/mpeg">
+            <source src="midia/Dulcinea-Steve Adams.ogg" type="audio/ogg">
+            <source src="midia/Dulcinea-Steve Adams.wav" type="audio/wav">
+            <p>
+                Seu navegador não consegue reproduzir o áudio.
+                <a href="/midia/Dulcinea-Steve Adams.mp3" target="_blank">Clique aqui para abrir o áudio.</a>
+            </p>
+            
+        </audio>
+    </p>
+<img src="" alt="" width="" height="">
+
+
+    
+</body>
+</html>

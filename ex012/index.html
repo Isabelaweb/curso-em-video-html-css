@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <h1>
+        Inserindo vídeos.
+    </h1>
+    <h2>
+        Hospedados localmente
+    </h2>
+    <p>
+        Este vídeo está hospedado no meu própio servidor.
+    </p>
+    <video width="500px" poster="img/capa-video.jpg" controls> <!-- Colocamos varios formatos de compatibilidade-->
+        <source src="/midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+    </video>
+
+    <video src="midia/meu-video.webm" width="500px" controls>Assite ai meu chapa </video> <!--Apenas um formato-->
+
+    <h2> Inserindo vídeos externos </h2>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VgzTfdzj_Ho" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+</body>
+</html>

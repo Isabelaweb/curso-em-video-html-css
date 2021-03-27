@@ -1,0 +1,20 @@
+* {
+    margin:0;
+    border: 0;
+    outline: 0;
+}
+}
+header {
+    background:yellow;
+    padding:1px;
+    text-align: center;
+    margin: 1px;
+    
+}
+body {
+    background: rgb(211, 113, 96);
+    
+}
+header div {
+    text-align:center;
+}
